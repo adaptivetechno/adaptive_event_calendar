@@ -1,8 +1,8 @@
 import '../../flutter_event_calendar.dart';
 
-class En {
+class Es {
   static Map fullMonthNames = const {
-    'en': {
+    'es': {
       CalendarType.JALALI: [
         'Farvardin',
         'Ordibehesht',
@@ -34,14 +34,14 @@ class En {
     }
   };
   static Map shortMonthNames = const {
-    'en': {
+    'es': {
       CalendarType.JALALI: ['Far', 'Ord', 'Kho', 'Tir', 'Mor', 'Sha', 'Mehr', 'Aban', 'Azar', 'Dey', 'Bah', 'Esf'],
-      CalendarType.GREGORIAN: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
+      CalendarType.GREGORIAN: ['Ene', 'Feb', 'Mar', 'Abr', 'May', 'Jun', 'Jul', 'Ago', 'Sep', 'Oct', 'Nov', 'Dic']
     }
   };
 
   static Map fullDayNames = const {
-    'en': {
+    'es': {
       CalendarType.JALALI: [
         'Saturday',
         'Sunday',
@@ -51,23 +51,23 @@ class En {
         'Thursday',
         'Friday',
       ],
-      CalendarType.GREGORIAN: ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']
+      CalendarType.GREGORIAN: ['Domingo', 'Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sábado']
     }
   };
   static Map shortDayNames = const {
-    'en': {
+    'es': {
       CalendarType.JALALI: ['Sa', 'Su', 'Mo', 'Tu', 'We', 'Th', 'Fr'],
-      CalendarType.GREGORIAN: ['Su', 'Mo', 'Tu', 'We', 'Th', 'Fr', 'Sa']
+      CalendarType.GREGORIAN: ['Do', 'Lu', 'Ma', 'Mi', 'Ju', 'Vi', 'Sa']
     }
   };
   static Map titles = const {
-    'en': {
-      'empty': 'Empty',
-      'month_selector': 'Choose a month',
-      'year_selector': 'Choose a year',
-      'day_selector':'choose a day'
+    'es': {
+      'empty': 'No hay eventos',
+      'month_selector': 'Selecciona mes',
+      'year_selector': 'Selecciona any',
+      'day_selector':'Selecciona dia'
     }
   };
 
-  static Map directionIsRTL = {'en': false};
+  static Map directionIsRTL = {'es': false};
 }
